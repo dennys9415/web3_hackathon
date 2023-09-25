@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+}
+
+#opening-text {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#nft-pic {
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 50%;
+    margin-top: 5%;
+}
+
+#nft-info {
+    bottom: 35%;
+    margin-left: 50%;
+    width: 30%;
+    position: absolute;
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    z-index: 3;
+    line-height: 25px;
+    position: absolute;
+}
+
+#back-home {
+    width: 30%;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 32%;
+    border-radius: 15px;
+    height: 5%;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border-color: rgb(183, 183, 183);
+    font-family: 'Press Start 2P';
+
+}
+
+@media screen and (max-width: 390px) {
+    body {
+        background-color: black;
+        height: auto;
+    }
+
+    #opening-text {
+        width: 120%;
+        position: absolute;
+        font-size: 30px;
+        margin-left: 5%;
+       
+    }
+
+    #nft-pic {
+        margin-top: 30%;
+        margin-left: 15%;
+        width: 400px;
+        object-fit: cover;
+    }
+
+    #nft-info  {
+        margin-top: 170%;
+        margin-left: 13%;
+        width: 75%;
+        position: absolute;
+     }
+
+    #back-home {
+        position:absolute;
+        margin-top: 110%;
+        margin-left: 30%;
+        font-size: 20px;
+        background-color: transparent;
+        color: white;
+        border-radius: 15px;
+        height: 5%;
+        width: 70%;
+        border-color: rgb(183, 183, 183);
+        font-family: 'Press Start 2P';
+    }
+
+
+
+};
